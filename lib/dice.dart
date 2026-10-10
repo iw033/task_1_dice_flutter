@@ -10,7 +10,7 @@ class Dice extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: const Color(0xffd1bbf7), // اللون البنفسجي الفاتح المناسب للتصميم
+        color: const Color(0xff1d3557), // لون أزرق داكن أنيق
         borderRadius: BorderRadius.circular(12),
       ),
       child: Text(
@@ -18,7 +18,7 @@ class Dice extends StatelessWidget {
         style: const TextStyle(
           fontSize: 48,
           fontWeight: FontWeight.bold,
-          color: Colors.black,
+          color: Colors.white, // نص باللون الأبيض لتباين قوي
         ),
       ),
     );
